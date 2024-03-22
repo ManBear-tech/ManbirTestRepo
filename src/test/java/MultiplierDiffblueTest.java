@@ -2,13 +2,13 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-class SubtractorDiffblueTest {
+class MultiplierDiffblueTest {
   /**
-   * Method under test: {@link Subtractor#doSomething(int)}
+   * Method under test: {@link Multiplier#doSomething(int)}
    */
   @Test
   void testDoSomething() {
     // Arrange, Act and Assert
-    assertEquals(251, (new Subtractor()).doSomething(1));
+    assertEquals(1, (new Multiplier()).doSomething(1));
   }
 }
