@@ -8,7 +8,11 @@ class MultiplierDiffblueTest {
    */
   @Test
   void testDoSomething() {
-    // Arrange, Act and Assert
+    Multiplier multiplier = null;
+        int something = 0;
+
+        // Act
+        int actualDoSomethingResult = multiplier.doSomething(something);
     assertEquals(1, (new Multiplier()).doSomething(1));
   }
 }
