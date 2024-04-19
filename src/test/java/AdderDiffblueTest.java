@@ -38,7 +38,6 @@ class AdderDiffblueTest {
 
   /**
    * Methods under test:
-   * 
    * <ul>
    *   <li>{@link Adder#Adder()}
    *   <li>{@link Adder#setNum1(int)}
