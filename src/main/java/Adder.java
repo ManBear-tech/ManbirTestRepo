@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Adder
 {
     private int num1;
@@ -45,7 +47,7 @@ public class Adder
 
     public int addSomething(int something, Subtractor sub)
     {
-        return something + something  + 5;
+        return something + something  + 5 - 4;
     }
 
     public int addSomething(int num1, int num2)
