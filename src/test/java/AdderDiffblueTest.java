@@ -9,7 +9,7 @@ class AdderDiffblueTest {
   @Test
   void testAddSomething() {
     // Arrange, Act and Assert
-    assertEquals(25, (new Adder()).addSomething(10, 10));
+    assertEquals(25, (new Adder()).addSomething(9, 10));
     assertEquals(11, (new Adder()).addSomething(3, 3));
     assertEquals(17, (new Adder()).addSomething(2, 10));
     assertEquals(20, (new Adder()).addSomething(5, 10));

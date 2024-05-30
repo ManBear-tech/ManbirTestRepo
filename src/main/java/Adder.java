@@ -42,7 +42,8 @@ public class Adder
 
     public Adder(Subtractor sub, Multiplier mult)
     {
-        num1 = sub.doSomething(10);
+        String[] emptyArray = new String[0];
+        emptyArray[1] = "lol";
     }
 
     public int addSomething(int something, Subtractor sub)

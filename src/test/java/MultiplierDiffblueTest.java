@@ -9,7 +9,7 @@ class MultiplierDiffblueTest {
   @Test
   void testDoSomething() {
     Multiplier multiplier = null;
-        int something = 0;
+        int something = 1;
 
         // Act
         int actualDoSomethingResult = multiplier.doSomething(something);
